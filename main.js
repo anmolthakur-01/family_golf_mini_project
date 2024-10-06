@@ -10,7 +10,7 @@ document.addEventListener("mousemove",function(dets){
 gsap.to("#nav",{
     backgroundColor:"#000",
     duration: 0.5,
-    height: "85px",
+    height: "70px",
     scrollTrigger:{
         trigger:"#nav",
         scroller: "body",
@@ -25,8 +25,8 @@ gsap.to("#main",{
     scrollTrigger:{
         trigger:"#main",
         scoller: "body",
-        start: "top -40%",
-        end: "top -70%",
+        start: "top -50%",
+        end: "top -100%",
         scrub: 2
     }
 })
